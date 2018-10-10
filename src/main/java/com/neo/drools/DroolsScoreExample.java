@@ -17,6 +17,9 @@ public DroolsScoreExample(){
     System.err.println("DroolsScoreExample Constructor");
 }
 
+public DroolsScoreExample(String s){
+    System.err.println("DroolsScoreExample Constructor");
+}
     /**
      * 计算额外积分金额 规则如下: 订单原价金额
      * 100以下, 不加分
