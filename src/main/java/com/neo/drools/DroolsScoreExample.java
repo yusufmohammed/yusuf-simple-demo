@@ -13,6 +13,9 @@ import java.util.List;
 
 public class DroolsScoreExample {
 
+public DroolsScoreExample(){
+    System.err.println("DroolsScoreExample Constructor");
+}
 
     /**
      * 计算额外积分金额 规则如下: 订单原价金额
